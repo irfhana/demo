@@ -1,0 +1,265 @@
+
+.Box{
+  background-color: rgb(170, 168, 168);
+  padding: 50px;
+}
+header{
+	width: 100%;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 100px;
+	background: white;
+  border-radius: 10px 10px 0px 0px;
+
+}
+.logo{
+	font-size: 28px;
+	font-weight: bold;
+	color: aqua;
+	margin-right: 40px;
+}
+.nav-bar ul{
+	display: flex;
+	list-style: none;
+  margin-left: 310px;
+  
+}
+.nav-bar ul li a{
+	display: block;
+	color: black;
+	font-size: 20px;
+	padding: 10px 25px;
+	transition: .2s;
+	margin: 0 5px;
+	text-decoration: none;
+  font-style: bold;
+  margin-top: 10px;
+  
+}
+
+.btns{
+  display: flex;
+	list-style: none;
+  
+}
+.btnone{
+  width: 90px;
+  height: 50px;
+  color: black;
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 15px;
+  margin-right: 13px;
+}
+.btntwo{
+  width: 110px;
+  height: 50px;
+  color: white;
+  border: 2px solid #4997d0;
+  padding: 5px;
+  border-radius: 15px;
+  background-color: #4997d0;
+  margin-right: -25px;
+
+
+}
+.body{
+  display: flex;
+	
+	
+	flex-direction: row;
+	
+}
+
+.left{
+  background-color: #f6f5e9;
+  width: 620px;
+  height: 600px;
+  float: left;
+}
+.left h1{
+  color: black;
+  font-size: 38px;
+  padding: 50px;
+  margin-top: 120px;
+}
+.left p{
+  font-size: 14px;
+  padding: 50px;
+  margin-top: -100px;
+  margin-bottom: -20px;
+}
+.btnonenew{
+  width: 90px;
+  height: 50px;
+  color: white;
+  border: 2px solid #4997d0;
+  padding: 5px;
+  border-radius: 15px;
+  background-color: #4997d0;
+  margin-left: 50px;
+  
+}
+.btntwonew{
+  width: 120px;
+  height: 50px;
+  color: black;
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 15px;
+  margin-left: 13px;
+}
+.right{
+  background-color: burlywood;
+  background-image: url('C:\Users\Irfhana\Downloads\housenew1.jpeg');
+  background-size: contain;
+  position: relative;
+  width: 750px;
+  height: 600px;
+  float: right;
+}
+.right-new{
+  background-color: #caf3d8;
+  height: 200px;
+  width: 650px;
+  margin-top: 350px;
+  margin-left: 50px;
+  border-radius: 20px;
+}
+.right-new h3{
+  font-size: 16px;
+  color: black;
+  padding: 30px;
+}
+.right-new p{
+  font-size: 14px;
+  color: rgb(102, 101, 101);
+  padding-left: 30px;
+  margin-top: -30px;
+}
+.bi-arrow-left{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-top: 40px;
+  flex-direction: row;
+  margin-left: 430px;
+  margin-right: 13px;
+  background-color: #caf3d8;
+
+}
+.roundone{
+  height: 15px;
+  width: 1px;
+  margin-left: 10px;
+  border-radius: 50%;
+  border: 1px solid #4997d0;
+  background-color: #4997d0;
+  margin-left: 30px;
+  margin-bottom: 40px;
+}
+.roundtwo{
+  height: 15px;
+  width: 1px;
+  margin-left: 10px;
+  border-radius: 50%;
+  border: 1px solid white;
+  color: white;
+}
+.roundthree{
+  height: 15px;
+  width: 1px;
+  margin-left: 10px;
+  border-radius: 50%;
+  border: 1px solid white;
+  color: white;
+}
+.bi-arrow-right{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-top: 45px;
+  flex-direction: row;
+  margin-bottom: 30px;
+  background-color: #caf3d8;
+
+}
+.body-two{
+  background-color: white;
+  width: 1370px;
+  height: 1000px;
+  position: relative;
+}
+.movie{
+  position: absolute;
+  margin: 50px;
+  height: 400px;
+  width: 1270px;
+  background-color: #4997d0;
+  
+}
+.movie h3{
+  margin-top: 65px;
+  text-align: center;
+  font-size: 14px;
+}
+.movie h1{
+  margin-top: 10px;
+  font-size: 30px;
+  color: black;
+  text-align: center;
+}
+.movie p{
+  
+  margin-top: 10px;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+}
+.sponsers ul{
+  display: flex;
+	list-style: none;
+  margin-left: 310px;
+
+}
+.sponsers ul li{
+  display: block;
+	color: rgb(175, 172, 172);
+	font-size: 30px;
+	padding: 8px 25px;
+	transition: .2s;
+	margin: 0 5px;
+  margin-top: 60px;
+	text-decoration: none;
+  font-style: bold;
+}
+.btnone-bottom{
+  width: 120px;
+  height: 50px;
+  color: black;
+  font-weight: 500px;
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 15px;
+  margin-left: 500px;
+  margin-top: 60px; 
+}
+.btntwo-bottom{
+  width: 190px;
+  height: 50px;
+  color: #21abcd;
+  background-color: white;
+  border: 2px solid white;
+  padding: 5px;
+  border-radius: 15px;
+  margin-left: 13px;
+  
+}
+
+
+
+
+
+
